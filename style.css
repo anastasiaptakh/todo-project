@@ -37,3 +37,35 @@ form button:hover{
     color: #fff;
     background: #ee6c1655;
 }
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+.todo{
+    margin: 0.5rem;
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo li{
+    flex: 1;
+}
+.complete-btn, .trash-btn{
+    background: #d1130d94;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-style: 1rem;
+}
+.complete-btn{
+    background: #56c828ab;
+}
